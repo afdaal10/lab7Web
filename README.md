@@ -16,7 +16,7 @@
 
 ##  Langkah-Langkah Praktikum
 
-### ** Persiapan Lingkungan**
+###  Persiapan Lingkungan
 Sebelum menulis kode PHP, lakukan langkah berikut:
 - Instal dan jalankan **XAMPP**.  
 - Aktifkan **Apache** di *XAMPP Control Panel*.  
