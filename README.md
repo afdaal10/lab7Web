@@ -45,6 +45,8 @@ Sebelum menulis kode PHP, lakukan langkah berikut:
 </body>
 </html>
 ```
+![Tampilan_dasar](tampilan_dasar.png)
+
 
  **Penjelasan:**
 - `<?php ... ?>` adalah tag pembuka dan penutup kode PHP.  
