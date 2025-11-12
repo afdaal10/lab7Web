@@ -62,12 +62,13 @@ Sebelum menulis kode PHP, lakukan langkah berikut:
 
 ```php
 <?php
-$nim = "0411500400";
-$nama = "Abdullah";
+$nim = "312410445";
+$nama = "Afdhal Agislam";
 echo "NIM : " . $nim . "<br>";
 echo "Nama : " . $nama;
 ?>
 ```
+![Output](latihan1.png)
 
  **Penjelasan:**
 - `$nim` dan `$nama` adalah variabel.  
@@ -104,6 +105,7 @@ echo 'Selamat Datang ' . $_POST['nama'];
 </body>
 </html>
 ```
+![Output](latihan2.png)
 
  **Penjelasan:**
 - `<form method="post">` → data dikirim ke server melalui metode POST.  
@@ -126,6 +128,7 @@ echo "Gaji sebelum pajak = Rp. $gaji <br>";
 echo "Gaji yang dibawa pulang = Rp. $thp";
 ?>
 ```
+![Output](operator.png)
 
  **Penjelasan:**
 - `*` digunakan untuk operasi perkalian.  
@@ -159,6 +162,7 @@ if ($nama_hari == "Sunday") {
 }
 ?>
 ```
+![Output](kondisi_if.png)
 
  **Penjelasan:**
 - `date("l")` mengambil nama hari (dalam bahasa Inggris).  
@@ -194,6 +198,7 @@ switch ($nama_hari) {
 - `break` menghentikan eksekusi setelah kondisi terpenuhi.  
 
 ---
+![Output](kondisi_if.png)
 
 ###  Perulangan
 
@@ -227,6 +232,7 @@ do {
 } while ($i <= 10);
 ?>
 ```
+![Output](perulangan.png)
 
  **Penjelasan:**
 - `for` → digunakan jika jumlah iterasi sudah diketahui.  
@@ -291,6 +297,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </body>
 </html>
 ```
+![Output](tugas.png)
 
 **Penjelasan:**
 - Menggunakan `DateTime` untuk menghitung umur.  
