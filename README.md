@@ -14,7 +14,7 @@
 
 ---
 
-##  **Langkah-Langkah Praktikum**
+##  Langkah-Langkah Praktikum
 
 ### ** Persiapan Lingkungan**
 Sebelum menulis kode PHP, lakukan langkah berikut:
@@ -28,7 +28,7 @@ Sebelum menulis kode PHP, lakukan langkah berikut:
 
 ---
 
-### ** PHP Dasar – Hello World**
+###  PHP Dasar – Hello World
 
 **File:** `php_dasar.php`  
 **Tujuan:** Mempelajari dasar penulisan script PHP dan cara menampilkan output.
@@ -53,7 +53,7 @@ Sebelum menulis kode PHP, lakukan langkah berikut:
 
 ---
 
-### **3️ Variabel PHP**
+###  Variabel PHP
 
 **File:** `latihan1.php`  
 **Tujuan:** Mengenal variabel dan menampilkan nilainya di PHP.
@@ -74,7 +74,7 @@ echo "Nama : " . $nama;
 
 ---
 
-### ** Form Input & Predefine Variable**
+### Form Input & Predefine Variable
 
 **File:** `latihan2.php`  
 **Tujuan:** Mempelajari cara mengirim dan menerima data dari form menggunakan `$_POST`.
@@ -110,7 +110,7 @@ echo 'Selamat Datang ' . $_POST['nama'];
 
 ---
 
-### **5️ Operator**
+### Operator
 
 **File:** `operator.php`  
 **Tujuan:** Mempelajari operasi aritmatika dalam PHP.
@@ -132,7 +132,7 @@ echo "Gaji yang dibawa pulang = Rp. $thp";
 
 ---
 
-### **6️ Kondisi IF**
+###  Kondisi IF
 
 **File:** `kondisi_if.php`  
 **Tujuan:** Mengetahui cara membuat keputusan berdasarkan kondisi tertentu.
@@ -165,7 +165,7 @@ if ($nama_hari == "Sunday") {
 
 ---
 
-### ** Kondisi Switch**
+###  Kondisi Switch
 
 **File:** `kondisi_switch.php`  
 **Tujuan:** Alternatif dari banyak `if`, dengan struktur `switch`.
@@ -193,7 +193,7 @@ switch ($nama_hari) {
 
 ---
 
-### **8️ Perulangan**
+###  Perulangan
 
 **File:** `perulangan.php`  
 **Tujuan:** Memahami struktur perulangan `for`, `while`, dan `do while`.
@@ -233,7 +233,7 @@ do {
 
 ---
 
-### ** Tugas Akhir – Form Data Diri**
+###  Tugas Akhir – Form Data Diri
 
 **File:** `tugas_php.php`  
 **Tujuan:** Menggabungkan seluruh konsep PHP (input, variabel, kondisi, dan logika).
@@ -297,7 +297,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 ---
 
-##  **Kesimpulan**
+##  Kesimpulan
 Melalui praktikum ini, saya memahami:
 - PHP dijalankan di sisi server (*Server Side Scripting*).  
 - Dasar penggunaan variabel, operator, kondisi, dan perulangan.  
